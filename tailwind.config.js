@@ -1,15 +1,45 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+// const defaultTheme = require('tailwindcss/defaultTheme')
 
+// module.exports = {
+//   theme: {
+//     extend: {
+//       fontFamily: {
+//         sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+//       },
+//     },
+//   },
+//   variants: {
+//     extend: {},
+//   },
+//   plugins: [],
+// }
+
+// module.exports = {
+//     purge: [],
+//     purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+//      darkMode: false, // or 'media' or 'class'
+//      theme: {
+//        extend: {
+//         fontFamily: {
+//                     sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+//                },
+//        },
+//      }, 
+
+//      variants: {
+//        extend: {},
+//      },
+//      plugins: [],
+//    }
 module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
-      },
-    },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+    purge: [],
+    purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+     darkMode: false, // or 'media' or 'class'
+     theme: {
+       extend: {},
+     },
+     variants: {
+       extend: {},
+     },
+     plugins: [],
+   }
