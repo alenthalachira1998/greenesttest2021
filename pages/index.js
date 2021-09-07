@@ -5,8 +5,7 @@ import Navbar from '../components/Navbar';
 // import Contact from './sections/Contact';
 
 
-const index = () => {
-
+export default function Home() {
   return (
     <>
   
@@ -27,4 +26,4 @@ const index = () => {
   )
 }
 
-export default index
+
