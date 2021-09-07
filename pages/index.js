@@ -2,7 +2,7 @@ import About from './sections/About';
 import MainHome from './sections/MainHome'
 import Head from 'next/head'
 import Navbar from '../components/Navbar';
-// import Contact from './sections/Contact';
+import Contact from './sections/Contact';
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
    <MainHome/>
 
    <About/>
-   {/* <Contact/> */}
+    <Contact/> 
     {/* </div>  */}
      
     
